@@ -19,7 +19,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className={`nav-link ${active === "home" ? "active" : ""}`} aria-current="page" to="/" name="home" onClick={handleclick}>Home</Link>
+                                <Link className={`nav-link ${active === "home" ? "active" : ""}`} aria-current="page" to="/personal-portfolio" name="home" onClick={handleclick}>Home</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className={`nav-link ${active === "projects" ? "active" : ""}`} to="/projects" name="projects" onClick={handleclick} > projects</Link>
